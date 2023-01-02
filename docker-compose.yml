@@ -4,7 +4,7 @@ services:
 
   node:
     container_name: nodeapp
-    image: nodeapp
+    image: vcnws/nodeapp:1.0
     build:
       context: .
       dockerfile: node.dockerfile
